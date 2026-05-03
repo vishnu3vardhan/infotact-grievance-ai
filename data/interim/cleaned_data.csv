@@ -1,0 +1,42 @@
+text,department,sentiment,clean_text,processed_text
+"No water supply in our area for last 3 days, please resolve urgently",Water,Urgent,no water supply in our area for last days please resolve urgently,water supply area last day resolve urgently
+Water is coming very dirty and smells bad,Water,Negative,water is coming very dirty and smells bad,water come dirty smell bad
+Low water pressure in the morning hours,Water,Negative,low water pressure in the morning hours,low water pressure morning hour
+Thank you for restoring water supply quickly,Water,Positive,thank you for restoring water supply quickly,restore water supply quickly
+Pipeline leakage near main road causing wastage,Water,Urgent,pipeline leakage near main road causing wastage,pipeline leakage near main road cause wastage
+No electricity since last night in our locality,Electricity,Urgent,no electricity since last night in our locality,electricity since last night locality
+Frequent power cuts during evening time,Electricity,Negative,frequent power cuts during evening time,frequent power cut evening time
+Voltage fluctuation damaging appliances,Electricity,Negative,voltage fluctuation damaging appliances,voltage fluctuation damage appliance
+"Electricity restored quickly, good service",Electricity,Positive,electricity restored quickly good service,electricity restore quickly good service
+Street lights not working in sector 12,Electricity,Negative,street lights not working in sector,street light work sector
+"Garbage not collected for a week, area becoming unhygienic",Sanitation,Urgent,garbage not collected for a week area becoming unhygienic,garbage collect week area become unhygienic
+Overflowing dustbins near market area,Sanitation,Negative,overflowing dustbins near market area,overflow dustbin near market area
+Sewage smell coming due to garbage pile,Sanitation,Negative,sewage smell coming due to garbage pile,sewage smell come due garbage pile
+Sanitation team did a good cleaning job today,Sanitation,Positive,sanitation team did a good cleaning job today,sanitation team good cleaning job today
+Dead animal lying on road not removed,Sanitation,Urgent,dead animal lying on road not removed,dead animal lie road remove
+Road full of potholes causing accidents,Roads,Urgent,road full of potholes causing accidents,road full pothole cause accident
+Road repair work is incomplete and dangerous,Roads,Negative,road repair work is incomplete and dangerous,road repair work incomplete dangerous
+"New road constructed properly, good work",Roads,Positive,new road constructed properly good work,new road construct properly good work
+Heavy traffic due to broken road condition,Roads,Negative,heavy traffic due to broken road condition,heavy traffic due broken road condition
+Street construction work left halfway,Roads,Negative,street construction work left halfway,street construction work leave halfway
+No buses available during peak hours,Transport,Negative,no buses available during peak hours,bus available peak hour
+"Bus service improved recently, thank you",Transport,Positive,bus service improved recently thank you,bus service improve recently
+Auto drivers refusing to go short distances,Transport,Negative,auto drivers refusing to go short distances,auto driver refuse go short distance
+Metro station escalator not working,Transport,Negative,metro station escalator not working,metro station escalator work
+Public transport connectivity needs improvement,Transport,Neutral,public transport connectivity needs improvement,public transport connectivity need improvement
+Drainage blockage causing waterlogging,Drainage,Urgent,drainage blockage causing waterlogging,drainage blockage cause waterlogging
+Sewage water overflowing on streets,Drainage,Urgent,sewage water overflowing on streets,sewage water overflowing street
+Drain cleaning not done regularly,Drainage,Negative,drain cleaning not done regularly,drain cleaning do regularly
+Drainage system improved after maintenance,Drainage,Positive,drainage system improved after maintenance,drainage system improve maintenance
+Rainwater not draining properly from roads,Drainage,Negative,rainwater not draining properly from roads,rainwater drain properly road
+Bijli nahi hai kal raat se please fix,Electricity,Urgent,electricity nahi hai kal raat se please fix,electricity nahi hai kal raat se fix
+Paani supply bahut kam aa raha hai,Water,Negative,water supply bahut kam aa raha hai,water supply bahut kam aa raha hai
+Kachra bahut jama ho gaya hai gali mein,Sanitation,Urgent,garbage bahut jama ho gaya hai gali mein,garbage bahut jama ho gaya hai gali mein
+Sadak bahut kharab hai gaadi chalana mushkil,Roads,Negative,road bahut kharab hai gaadi chalana mushkil,road bahut kharab hai gaadi chalana mushkil
+Drain block ho gaya hai paani bhar gaya,Drainage,Urgent,drain block ho gaya hai water bhar gaya,drain block ho gaya hai water bhar gaya
+Street light repair kar diya thanks,Electricity,Positive,street light repair kar diya thanks,street light repair kar diya
+Water tanker not arrived today,Water,Negative,water tanker not arrived today,water tanker arrive today
+Garbage collection vehicle skipped our area,Sanitation,Negative,garbage collection vehicle skipped our area,garbage collection vehicle skip area
+Road divider broken and dangerous,Roads,Urgent,road divider broken and dangerous,road divider break dangerous
+Bus timing not followed properly,Transport,Negative,bus timing not followed properly,bus timing follow properly
+Drain overflow after rain every time,Drainage,Negative,drain overflow after rain every time,drain overflow rain every time
