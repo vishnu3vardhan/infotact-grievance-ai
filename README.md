@@ -339,7 +339,8 @@ This project is licensed under the **MIT License**.
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Vishnu vardhan**
+**Lavish**
 
 Built as an AI-driven solution for smarter citizen grievance routing and prioritization.
 
