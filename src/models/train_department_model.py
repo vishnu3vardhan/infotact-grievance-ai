@@ -195,6 +195,16 @@ class DepartmentModelTrainer:
         logger.info("Saved label encoder to %s", self.encoder_output_path)
 
 
+def train_department_classifier(
+    input_csv: str | Path = "data/interim/cleaned_data.csv",
+    output_path: str | Path = "artifacts/models/best_department_model.pkl",
+) -> Any:
+    """Compatibility wrapper used by the Week 2 runner and existing scripts."""
+    trainer = DepartmentModelTrainer(dataset_path=input_csv, model_output_path=output_path)
+    result = trainer.train()
+    return joblib.load(output_path) if Path(output_path).exists() else result
+
+
 if __name__ == "__main__":
     trainer = DepartmentModelTrainer()
     summary = trainer.train()

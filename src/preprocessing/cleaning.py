@@ -10,12 +10,12 @@ import spacy
 from loguru import logger
 
 
-# Load spaCy model once
+# Load spaCy model once (graceful fallback when model is unavailable)
 try:
     nlp = spacy.load("en_core_web_sm")
 except OSError:
-    logger.error("spaCy model not found. Run: python -m spacy download en_core_web_sm")
-    raise
+    nlp = None
+    logger.warning("spaCy model 'en_core_web_sm' not found. Falling back to NLTK lemmatization.")
 
 
 class TextCleaner:
@@ -106,6 +106,10 @@ class TextCleaner:
         return [self.lemmatizer.lemmatize(word) for word in tokens]
 
     def spacy_lemmatize(self, text: str) -> List[str]:
+        if nlp is None:
+            tokens = self.tokenize(text)
+            tokens = self.remove_stopwords(tokens)
+            return self.lemmatize(tokens)
         doc = nlp(text)
         return [token.lemma_ for token in doc if token.text not in self.stop_words]
 

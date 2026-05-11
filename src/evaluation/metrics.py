@@ -77,4 +77,4 @@ def plot_confusion_matrix(
         plt.savefig(output, dpi=300, bbox_inches="tight")
         logger.info("Confusion matrix saved to %s", output)
 
-    plt.show()
+    plt.close()
